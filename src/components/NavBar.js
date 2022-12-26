@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 import Logo from "../assets/logo.png";
 
@@ -8,17 +9,37 @@ export default function NavBar() {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#064e3b] text-[#fff] text-2xl">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#064e3b] text-white text-2xl">
       <div>
         <img src={Logo} alt="Logo Image" style={{ width: "225px" }} />
       </div>
 
       <ul className="hidden md:flex">
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li>
+          <Link to="home" smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to="about" smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link to="work" smooth={true} duration={500}>
+            Work
+          </Link>
+        </li>
+        <li>
+          <Link to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       <div onClick={handleClick} className="md:hidden z-10">
@@ -29,7 +50,7 @@ export default function NavBar() {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#C0C0C0] flex flex-col justify-center items-center "
+            : "absolute top-0 left-0 w-full h-screen bg-[#064e3b] flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">Home</li>
