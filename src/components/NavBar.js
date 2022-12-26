@@ -11,7 +11,7 @@ export default function NavBar() {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#064e3b] text-white text-2xl">
       <div>
-        <img src={Logo} alt="Logo Image" style={{ width: "225px" }} />
+        <img src={Logo} alt="Logo img" style={{ width: "225px" }} />
       </div>
 
       <ul className="hidden md:flex">
