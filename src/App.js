@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar";
 import SideBar from "./components/SideBar";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <SideBar />
       <Home />
       <About />
+      <Experience />
       <Skills />
       <Projects />
       <Contact />
