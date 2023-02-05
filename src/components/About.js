@@ -11,7 +11,7 @@ export default function About() {
   }, []);
 
   return (
-    <div name="about" className="w-full h-screen bg-[#0a192f] text-white">
+    <div name="about" className="w-full h-screen bg-[#064e3b] text-white">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
@@ -31,7 +31,7 @@ export default function About() {
             Hello! I'm Justin, a developer based in New York City.
           </p>
 
-          <p className="hover: ">
+          <p className="text-xl">
             This year has been a rollercoaster ride of emotions which ultimately
             sparked my interest in development. At the beginning of the year, I
             accepted a new job in New York City and moved from Texas in March. I
@@ -60,10 +60,10 @@ export default function About() {
             </RoughNotationGroup>
             . After talking with multiple people who currently work in the
             field, I saw additional benefits: work-life balance, the opportunity
-            to freelance, and{" "}
+            to freelance, and the{" "}
             
               <RoughNotation type="box" color="red" show={true}>
-                the indefinite growth of the industry.
+                 indefinite growth of the industry.
               </RoughNotation>
           
           </p>

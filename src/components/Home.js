@@ -60,7 +60,7 @@ export default function Home() {
               back-end{" "}
             </RoughNotation>
           </RoughNotationGroup>
-          software develpoment
+          software developer
         </p>
         <div>
           <Link to="projects" smooth={true} duration={500}>

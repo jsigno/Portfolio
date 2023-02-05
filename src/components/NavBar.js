@@ -8,10 +8,9 @@ export default function NavBar() {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
-
   return (
     <div className="fixed w-full h-20 flex justify-between items-center px-4 bg-[#064e3b] text-white text-2xl z-[100]">
-      <div>
+      <div style={{ justifySelf: "start" }}>
         <img src={Logo} alt="Logo img" style={{ width: "225px" }} />
       </div>
 
@@ -75,7 +74,12 @@ export default function NavBar() {
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="projects" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="projects"
+            smooth={true}
+            duration={500}
+          >
             Projects
           </Link>
         </li>
