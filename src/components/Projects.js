@@ -1,5 +1,6 @@
 import React from "react";
-import ProjectImg from "../assets/projects/project.jpeg";
+import ChatGPT from "../assets/projects/chatgpt.png";
+
 
 export default function Projects() {
   return (
@@ -14,7 +15,7 @@ export default function Projects() {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
           <div
-            style={{ backgroundImage: `url(${ProjectImg})` }}
+            style={{ backgroundImage: `url(${ChatGPT})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100 ">
@@ -25,7 +26,7 @@ export default function Projects() {
                     DEMO
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/jsigno/ChatGPTClone">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     CODE
                   </button>
@@ -34,7 +35,7 @@ export default function Projects() {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${ProjectImg})` }}
+            // style={{ backgroundImage: `url(${ChatGPT})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100 ">
@@ -55,7 +56,7 @@ export default function Projects() {
             
           </div>
           <div
-            style={{ backgroundImage: `url(${ProjectImg})` }}
+            // style={{ backgroundImage: `url(${ProjectImg})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100 ">
@@ -75,7 +76,7 @@ export default function Projects() {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${ProjectImg})` }}
+            // style={{ backgroundImage: `url(${ProjectImg})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100 ">

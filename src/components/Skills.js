@@ -19,7 +19,7 @@ export default function Skills() {
   }, []);
 
   return (
-    <div className="w-full h-screen bg-[#064e3b] text-white pt-32 overflow-auto">
+    <div name="skills" className="w-full h-screen bg-[#064e3b] text-white pt-32 overflow-auto">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
           <p className="text-6xl font-bold inline border-b-4 border-red-600 ">

@@ -32,9 +32,9 @@ export default function About() {
           </p>
 
           <p className="text-xl">
-            This year has been a rollercoaster ride of emotions which ultimately
+            This past year has been a rollercoaster ride of emotions which ultimately
             sparked my interest in development. At the beginning of the year, I
-            accepted a new job in New York City and moved from Texas in March. I
+            accepted a new job in New York City and moved from Texas in March 2022. I
             was learning new skills, meeting new people, and generally excited
             about my future. In May, however, my dreams were quickly
             extinguished when I was laid off due to economic reasons. Never one

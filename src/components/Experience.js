@@ -8,7 +8,6 @@ import "react-vertical-timeline-component/style.min.css";
 function Experience() {
   return (
     <>
-      {/* <div name="experience" className="pt-12 bg-[#064e3b]"></div> */}
       <div name="experience" className="bg-[#064e3b]">
         <VerticalTimeline lineColor="#fff">
           <div className="sm:text-left pl-10 pt-12">
@@ -17,76 +16,99 @@ function Experience() {
             </p>
           </div>
           <VerticalTimelineElement
-            className="vertical-timeline-element--education"
+            className="vertical-timeline-element--education text-white"
             date="August 2017 - May 2020"
-            iconStyle={{ background: "red"}}
+            iconStyle={{ background: "red" }}
           >
-            <h3 className="vertical-timeline-element-title font-bold">
-              University of North Texas
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Denton, Texas
-            </h4>
-            <p>
-              Graduated Cum Laude with a BBA in Marketing with a Concertation in
-              B2B Selling
-            </p>
+            <div className="text-black">
+              <h3 className="vertical-timeline-element-title font-bold">
+                University of North Texas
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                Denton, Texas
+              </h4>
+              <p>
+              • Graduated Cum Laude with a BBA in Marketing with a Concertation
+                in B2B Selling
+              </p>
+            </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--education"
+            className="vertical-timeline-element--education text-white"
             date="September 2022 - February 2023"
             iconStyle={{ background: "red" }}
           >
-            <h3 className="vertical-timeline-element-title font-bold">
-              Fullstack Acacdemy
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              New York City, New York
-            </h4>
-            <p>A 17 Week Full-time, Software Development Immersive Bootcamp</p>
+            <div className="text-black">
+              <h3 className="vertical-timeline-element-title font-bold">
+                Fullstack Acacdemy
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                New York City, New York
+              </h4>
+              <p>
+              • A 17 Week Full-time, Software Development Immersive Bootcamp
+              </p>
+            </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element--education text-white"
             date="October 2020 - March 2021"
             iconStyle={{ background: "#e9d35b", color: "#fff" }}
           >
-            <h3 className="vertical-timeline-element-title font-bold">
-              Tesla, Inc.
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">Plano, Texas</h4>
-            <p>
-              Provided the highest level of customer service throughout the full
-              sales and delivery cycle & installation process, as well as
-              continued support throughout ownership
-            </p>
+            <div className="text-black">
+              <h3 className="vertical-timeline-element-title font-bold">
+                Tesla, Inc.
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                Plano, Texas
+              </h4>
+              <p>
+                • Provided the highest level of customer service throughout the
+                full sales and delivery cycle & installation process, as well as
+                continued support throughout ownership
+              </p>
+            </div>
           </VerticalTimelineElement>
-
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element--education text-white"
             date="July 2017 - January 2022"
             iconStyle={{ background: "#e9d35b", color: "#fff" }}
           >
-            <h3 className="vertical-timeline-element-title font-bold">
-              Apple, Inc.
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Southlake, Texas
-            </h4>
-            <p>*enter something about Apple*</p>
+            <div className="text-black">
+              <h3 className="vertical-timeline-element-title font-bold">
+                Apple, Inc.
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                Southlake, Texas
+              </h4>
+              <p>
+                • Drove sales and improved customer experience while maintaining
+                a 99.5% accuracy in the store inventory via SAP systems.
+                <br />• Successfully grew the Apple brand, surpassing sales
+                goals and resulting in 80+ small business connections and $1M in
+                revenue while providing a great customer experience.
+              </p>
+            </div>
           </VerticalTimelineElement>
-
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element--education text-white"
             date="January 2022 - June 2022"
             iconStyle={{ background: "#e9d35b", color: "#fff" }}
           >
-            <h3 className="vertical-timeline-element-title font-bold">
-              Klarna, Inc.
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              New York City, New York
-            </h4>
-            <p>*enter something about Klarna*</p>
+            <div className="text-black">
+              <h3 className="vertical-timeline-element-title font-bold">
+                Klarna, Inc.
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                New York City, New York
+              </h4>
+              <p>
+                • Created personalized outreaches, facilitated enterprise
+                discussions, utilized networks to win over key merchants, and
+                developed and implemented strategic projects to drive growth in
+                the US and Canada resulting in over $3B in annual sales volume.
+              </p>
+            </div>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
