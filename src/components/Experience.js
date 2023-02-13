@@ -9,11 +9,11 @@ function Experience() {
   return (
     <>
       <div name="experience" className="bg-[#064e3b]">
-      <div className="sm:text-left pr-96 pt-24 grid justify-items-end">
-            <p className="text-6xl font-bold inline border-b-4 border-red-600 text-white ">
-              Experience
-            </p>
-          </div>
+        <div className="lg:pl-80 sm:text-left pt-24 pb-12">
+          <p className="text-6xl font-bold inline border-b-4 border-red-600 text-white">
+            Experience
+          </p>
+        </div>
         <VerticalTimeline lineColor="#fff">
           <VerticalTimelineElement
             className="vertical-timeline-element--education text-white"
@@ -28,8 +28,8 @@ function Experience() {
                 Denton, Texas
               </h4>
               <p>
-              • Graduated Cum Laude with a BBA in Marketing with a Concertation
-                in B2B Selling
+                • Graduated Cum Laude with a BBA in Marketing with a
+                Concertation in B2B Selling
               </p>
             </div>
           </VerticalTimelineElement>
@@ -46,7 +46,11 @@ function Experience() {
                 New York City, New York
               </h4>
               <p>
-              • A 17 Week Full-time, Software Development Immersive Bootcamp
+                • An intensive fullstack JavaScript development training program
+                that provides hands-on learning experience through daily
+                projects and pair-programming. We started by mastering computer
+                science fundamentals and progress to frontend and backend web
+                development, while building multiple large-scale projects
               </p>
             </div>
           </VerticalTimelineElement>
