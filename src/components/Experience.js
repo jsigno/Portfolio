@@ -9,12 +9,12 @@ function Experience() {
   return (
     <>
       <div name="experience" className="bg-[#064e3b]">
-        <VerticalTimeline lineColor="#fff">
-          <div className="sm:text-left pl-10 pt-12">
-            <p className="text-6xl font-bold inline border-b-4 border-red-600 text-white">
+      <div className="sm:text-left pr-96 pt-24 grid justify-items-end">
+            <p className="text-6xl font-bold inline border-b-4 border-red-600 text-white ">
               Experience
             </p>
           </div>
+        <VerticalTimeline lineColor="#fff">
           <VerticalTimelineElement
             className="vertical-timeline-element--education text-white"
             date="August 2017 - May 2020"
