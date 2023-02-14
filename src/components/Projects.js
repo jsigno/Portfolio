@@ -1,5 +1,6 @@
 import React from "react";
 import ChatGPT from "../assets/projects/chatgpt.png";
+import Discoverify from "../assets/projects/discoverify.png"
 
 
 export default function Projects() {
@@ -35,7 +36,7 @@ export default function Projects() {
             </div>
           </div>
           <div
-            // style={{ backgroundImage: `url(${ChatGPT})` }}
+            style={{ backgroundImage: `url(${Discoverify})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100 ">
