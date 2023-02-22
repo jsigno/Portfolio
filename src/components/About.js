@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -32,15 +31,16 @@ export default function About() {
           </p>
 
           <p className="text-xl">
-            This past year has been a rollercoaster ride of emotions which ultimately
-            sparked my interest in development. At the beginning of the year, I
-            accepted a new job in New York City and moved from Texas in March 2022. I
-            was learning new skills, meeting new people, and generally excited
-            about my future. In May, however, my dreams were quickly
-            extinguished when I was laid off due to economic reasons. Never one
-            to be discouraged, I used this time to explore new interests that I
-            did not have time for previously, including software development. I
-            was immediately drawn to this field because of how it combines
+            This past year has been a rollercoaster ride of emotions which
+            ultimately sparked my interest in development. At the beginning of
+            the year, I accepted a new job in New York City and moved from Texas
+            in March 2022. I was learning new skills, meeting new people, and
+            generally excited about my future. In May, however, my dreams were
+            quickly extinguished when I was laid off due to economic reasons.
+            Never one to be discouraged, I used this time to explore new
+            interests that I did not have time for previously, including
+            software development. I was immediately drawn to this field because
+            of how it combines
             <RoughNotationGroup show={true}>
               <RoughNotation type="underline" color="red">
                 {" "}
@@ -61,11 +61,9 @@ export default function About() {
             . After talking with multiple people who currently work in the
             field, I saw additional benefits: work-life balance, the opportunity
             to freelance, and the{" "}
-            
-              <RoughNotation type="box" color="red" show={true}>
-                 indefinite growth of the industry.
-              </RoughNotation>
-          
+            <RoughNotation type="box" color="red" show={true}>
+              indefinite growth of the industry.
+            </RoughNotation>
           </p>
         </div>
       </div>
