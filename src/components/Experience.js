@@ -49,7 +49,7 @@ function Experience() {
                 • An intensive fullstack JavaScript development training program
                 that provides hands-on learning experience through daily
                 projects and pair-programming. We started by mastering computer
-                science fundamentals and progress to frontend and backend web
+                science fundamentals and progressed to frontend and backend web
                 development, while building multiple large-scale projects
               </p>
             </div>
@@ -86,7 +86,7 @@ function Experience() {
                 Southlake, Texas
               </h4>
               <p>
-                • Drove sales and improved customer experience while maintaining
+                • Drove sales and improved customer experiences while maintaining
                 a 99.5% accuracy in the store inventory via SAP systems.
                 <br />• Successfully grew the Apple brand, surpassing sales
                 goals and resulting in 80+ small business connections and $1M in
@@ -107,7 +107,7 @@ function Experience() {
                 New York City, New York
               </h4>
               <p>
-                • Created personalized outreaches, facilitated enterprise
+                • Created personalized communications, facilitated enterprise
                 discussions, utilized networks to win over key merchants, and
                 developed and implemented strategic projects to drive growth in
                 the US and Canada resulting in over $3B in annual sales volume.
