@@ -26,7 +26,7 @@ export default function SideBar() {
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#fcd34d]">
           <a
             className="flex justify-between items-center w-full text-[#fff] text-xl"
-            href="/"
+            href="mailto:justinsigno@yahoo.com"
           >
             Email <HiOutlineMail size={30} />
           </a>
@@ -34,7 +34,7 @@ export default function SideBar() {
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
           <a
             className="flex justify-between items-center w-full text-[#fff] text-xl"
-            href="https://www.dropbox.com/s/z7m1cezfxuof1py/Justin%20Signo%20Resume.pdf?dl=0"
+            href="https://drive.google.com/file/d/1f91atp_n1-b6OjDi2uP7atYO2h2028nj/view"
           >
             Resume <BsFillPersonLinesFill size={30} />
           </a>
