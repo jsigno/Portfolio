@@ -24,12 +24,12 @@ export default function Projects() {
             <div className="opacity-0 group-hover:opacity-100 ">
               <span className="text-2xl font-bold tracking-wider"></span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://chat-sig.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     DEMO
                   </button>
                 </a>
-                <a href="https://github.com/jsigno/ChatGPTClone">
+                <a href="https://github.com/jsigno/ChatSIG">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     CODE
                   </button>
