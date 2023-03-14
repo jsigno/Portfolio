@@ -1,8 +1,9 @@
 import React from "react";
 import ChatGPT from "../assets/projects/chatgpt.png";
 import Discoverify from "../assets/projects/discoverify.png"
-import ChatApp from "../assets/projects/chatapp.png"
+// import ChatApp from "../assets/projects/chatapp.png"
 import GraceShopper from "../assets/projects/graceshopper.png"
+import Pfive from "../assets/projects/pfive.png"
 
 
 export default function Projects() {
@@ -44,12 +45,12 @@ export default function Projects() {
             <div className="opacity-0 group-hover:opacity-100 ">
               <span className="text-2xl font-bold tracking-wider"></span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://discver-it.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     DEMO
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/jsigno/Discoverify">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     CODE
                   </button>
@@ -59,18 +60,18 @@ export default function Projects() {
             
           </div>
           <div
-            style={{ backgroundImage: `url(${ChatApp})` }}
+            style={{ backgroundImage: `url(${Pfive})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100 ">
               <span className="text-2xl font-bold tracking-wider"></span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://you-are-beautiful.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     DEMO
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/jsigno/pretty">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     CODE
                   </button>
