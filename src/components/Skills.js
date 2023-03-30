@@ -5,11 +5,15 @@ import CSS from "../assets/css.png";
 import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import Node from "../assets/node.png";
-import GitHub from "../assets/github.png";
+// import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
 import Sequelize from "../assets/sequelize.png";
 import Firebase from "../assets/firebase.png";
 import Vite from "../assets/vite.png";
+import AWS from "../assets/aws.png";
+import Typescript from "../assets/typescript.png";
+import Vue from "../assets/vue.png";
+
 
 
 import AOS from "aos";
@@ -30,7 +34,7 @@ export default function Skills() {
           <p className="py-4">These are the technologies I've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-6 gap-4 text-center py-8">
           <div
             className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
             data-aos="fade-right"
@@ -63,14 +67,14 @@ export default function Skills() {
             <img className="w-20 mx-auto" src={ReactImg} alt="REACT icon" />
             <p className="my-4">REACT</p>
           </div>
-          <div
+          {/* <div
             className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
             data-aos="fade-right"
             data-aos-delay="200"
           >
             <img className="w-20 mx-auto" src={GitHub} alt="GIT icon" />
             <p className="my-4">GITHUB</p>
-          </div>
+          </div> */}
           <div
             className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
             data-aos="fade-right"
@@ -110,6 +114,30 @@ export default function Skills() {
           >
             <img className="w-20 mx-auto" src={Vite} alt="VITE icon" />
             <p className="my-4">VITE</p>
+          </div>
+          <div
+            className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            data-aos="fade-right"
+            data-aos-delay="400"
+          >
+            <img className="w-20 mx-auto" src={AWS} alt="VITE icon" />
+            <p className="my-4">AWS</p>
+          </div>
+          <div
+            className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            data-aos="fade-right"
+            data-aos-delay="400"
+          >
+            <img className="w-20 mx-auto" src={Typescript} alt="VITE icon" />
+            <p className="my-4">TYPESCRIPT</p>
+          </div>
+          <div
+            className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            data-aos="fade-right"
+            data-aos-delay="400"
+          >
+            <img className="w-20 mx-auto" src={Vue} alt="VITE icon" />
+            <p className="my-4">VUE</p>
           </div>
         </div>
       </div>
