@@ -34,7 +34,7 @@ export default function SideBar() {
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
           <a
             className="flex justify-between items-center w-full text-[#fff] text-xl"
-            href="https://drive.google.com/file/d/1HVUHCdx56yDnusYdd0l9j3rJ5RfFUhZ2/view"
+            href="https://drive.google.com/file/d/1-4F1Jv0YbxRsIZDCZxotXd18PrU_Z5mQ/view"
           >
             Resume <BsFillPersonLinesFill size={30} />
           </a>
