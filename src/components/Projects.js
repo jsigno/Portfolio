@@ -1,8 +1,8 @@
 import React from "react";
 import ChatGPT from "../assets/projects/chatgpt.png";
 import Discoverify from "../assets/projects/discoverify.png"
-import Wireframes from "../assets/projects/frontend.png"
-import Pfive from "../assets/projects/pfive.png"
+import Wireframes from "../assets/projects/wireframes.png"
+import YAB from "../assets/projects/YAB.png"
 
 
 export default function Projects() {
@@ -59,7 +59,7 @@ export default function Projects() {
             
           </div>
           <div
-            style={{ backgroundImage: `url(${Pfive})` }}
+            style={{ backgroundImage: `url(${YAB})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100 ">
