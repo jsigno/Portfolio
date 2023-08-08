@@ -12,7 +12,7 @@ const Footer = () => {
           <a href="https://github.com/jsigno" className="text-[#fff] font-bold text-xl">Github</a>
         </li>
         <li>
-          <a href="https://drive.google.com/file/d/1YivrDiHUJ3PyFAicL8Jhpu9oHgk637R7/view" className="text-[#fff] font-bold text-xl">Resume</a>
+          <a href="https://drive.google.com/file/d/1JWiBGdRLf04EJpnnUuM5pXhA8i1Lclc3/view" className="text-[#fff] font-bold text-xl">Resume</a>
         </li>
       </ul>
     </div>
