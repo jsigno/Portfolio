@@ -38,7 +38,7 @@ export default function Home() {
           I'm a Software Developer.
         </h2>
         <p className="text-[#fff] py-4 max-w-[700px]">
-          I am a recent gradute from Fullstack Acacdemy where I learned the
+          Recent gradute from Fullstack Acacdemy where I learned the
           fundamentals of
           <RoughNotationGroup show={true}>
             <RoughNotation
