@@ -39,18 +39,17 @@ export default function Home() {
         </h2>
         <p className="text-[#fff] py-4 max-w-[700px]">
           Recent gradute from Fullstack Acacdemy where I learned the
-          fundamentals of
           <RoughNotationGroup show={true}>
             <RoughNotation
-              type="highlight"
+              type="underline"
               color="red"
-              strokeWidth="0"
+              strokeWidth="2"
               animationDelay="1800"
             >
               {" "}
-              front-end{" "}
+              fundamentals{" "}
             </RoughNotation>
-            and{" "}
+            {/* and{" "}
             <RoughNotation
               type="underline"
               color="red"
@@ -58,9 +57,9 @@ export default function Home() {
               animationDelay="1800"
             >
               back-end{" "}
-            </RoughNotation>
+            </RoughNotation> */}
           </RoughNotationGroup>
-          software developer
+           of software development
         </p>
         <div>
           <Link to="projects" smooth={true} duration={500}>
