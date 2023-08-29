@@ -82,7 +82,7 @@ export default function Projects() {
               <div className="pt-8 text-center">
                 <a href="https://you-are-beautiful.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
-                    DECK
+                    DEMO
                   </button>
                 </a>
                 <a href="https://github.com/jsigno/pretty">
