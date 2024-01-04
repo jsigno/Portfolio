@@ -2,47 +2,32 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 
-import Logo from "../assets/logo.png";
-
 export default function NavBar() {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
   return (
     <div className="fixed w-full h-20 flex justify-between items-center px-4 bg-[#064e3b] text-white text-2xl z-[100]">
-      <div style={{ justifySelf: "start" }}>
-        <img src={Logo} alt="Logo img" style={{ width: "225px" }} />
-      </div>
 
       <ul className="hidden md:flex">
         <li>
           <Link to="home" smooth={true} duration={500}>
-            Home
+            about
           </Link>
         </li>
         <li>
           <Link to="about" smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
-        <li>
-          <Link to="experience" smooth={true} duration={500}>
-            Experience
-          </Link>
-        </li>
-        <li>
-          <Link to="skills" smooth={true} duration={500}>
-            Skills
+            services
           </Link>
         </li>
         <li>
           <Link to="projects" smooth={true} duration={500}>
-            Projects
+            projects
           </Link>
         </li>
         <li>
           <Link to="contact" smooth={true} duration={500}>
-            Contact
+            Let's Talk
           </Link>
         </li>
       </ul>
@@ -69,7 +54,12 @@ export default function NavBar() {
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="experience" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="experience"
+            smooth={true}
+            duration={500}
+          >
             Experience
           </Link>
         </li>
